@@ -28,7 +28,7 @@ document.getElementById("akanForm").addEventListener("submit", function (event) 
     const year = parseInt(document.getElementById("year").value);
 // Check that the user selected a gender
     const gender = document.querySelector('input[name="gender"]:checked');
-
+// Validate the day input
     if (day < 1 || day > 31) {
         alert("Enter a valid day.");
         return;
