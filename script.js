@@ -33,7 +33,7 @@ document.getElementById("akanForm").addEventListener("submit", function (event) 
         alert("Enter a valid day.");
         return;
     }
-
+// Validate the month input
     if (month < 1 || month > 12) {
         alert("Enter a valid month.");
         return;
