@@ -54,3 +54,24 @@ The stylesheet in this project is responsible for making the webpage look clean,
 
 ## Notes
 This project uses plain CSS for simple and lightweight styling.
+
+# JavaScript Documentation
+
+This section explains the purpose of the JavaScript used in the Akan Name Generator website.
+
+## Purpose
+The JavaScript file contains the logic that generates an Akan name based on the user’s birthday and selected gender.
+
+## What it does
+- Stores the male and female Akan name lists
+- Listens for the form submission
+- Reads the day, month, year, and gender entered by the user
+- Validates the input values
+- Calculates the weekday from the date
+- Displays the correct Akan name on the page
+
+## File
+- script.js — contains the main application logic
+
+## Notes
+This project uses plain JavaScript with no external libraries.
