@@ -11,7 +11,7 @@ body {
     margin: 40px;
     text-align: center;
 }
-
+/* Main container */
 h1 {
     color: #2c3e50;
 }
@@ -34,8 +34,8 @@ input {
     padding: 10px;
     margin: 10px 0;
 }
-
-button {
+/**/
+gasbutton {
     background-color: #007BFF;
     color: white;
     border: none;
