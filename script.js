@@ -7,8 +7,7 @@ const maleNames = [
     "Kofi",
     "Kwame"
 ];
-
-const femaleNames = [
+// female akan names for each day of the week  [
     "Akosua",
     "Adwoa",
     "Abenaa",
