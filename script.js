@@ -18,7 +18,7 @@ const maleNames = [
 ];
 // listen for the form submission
 document.getElementById("akanForm").addEventListener("submit", function (event) {
-    // prevent the page from refreshing
+    // Prevent the page from refreshing
     event.preventDefault();
 
     const day = parseInt(document.getElementById("day").value);
