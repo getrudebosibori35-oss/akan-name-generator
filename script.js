@@ -38,7 +38,7 @@ document.getElementById("akanForm").addEventListener("submit", function (event) 
         alert("Enter a valid month.");
         return;
     }
-
+// Select the correct akan name based on gender
     if (!gender) {
         alert("Please select a gender.");
         return;
