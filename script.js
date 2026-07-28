@@ -16,7 +16,7 @@ const maleNames = [
     "Afua",
     "Ama"
 ];
-
+// listen for the form submission
 document.getElementById("akanForm").addEventListener("submit", function (event) {
     event.preventDefault();
 
