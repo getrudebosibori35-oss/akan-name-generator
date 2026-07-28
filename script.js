@@ -1,4 +1,5 @@
 const maleNames = [
+
     "Kwasi",
     "Kwadwo",
     "Kwabena",
@@ -8,6 +9,7 @@ const maleNames = [
     "Kwame"
 ];
 // female akan names for each day of the week  [
+const femaleNames = [
     "Akosua",
     "Adwoa",
     "Abenaa",
@@ -20,11 +22,11 @@ const maleNames = [
 document.getElementById("akanForm").addEventListener("submit", function (event) {
     // Prevent the page from refreshing
     event.preventDefault();
-// Get user input
+// Get input
     const day = parseInt(document.getElementById("day").value);
     const month = parseInt(document.getElementById("month").value);
     const year = parseInt(document.getElementById("year").value);
-
+// Check that the user selected a gender
     const gender = document.querySelector('input[name="gender"]:checked');
 
     if (day < 1 || day > 31) {
