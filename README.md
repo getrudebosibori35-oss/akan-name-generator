@@ -26,3 +26,31 @@ Your Akan name is Kwasi
 
 ## Notes
 This project is built with plain HTML, CSS, and JavaScript.
+
+
+
+# Style Sheet Documentation
+
+This file documents the styling used in the Akan Name Generator website.
+
+## Purpose
+The stylesheet in this project is responsible for making the webpage look clean, centered, and easy to use.
+
+## What it styles
+- The overall page background and font
+- The main heading and description text
+- The form container and spacing
+- Input fields and buttons
+- The result text displayed after generating an Akan name
+
+## Main styling features
+- A light gray page background
+- A white form card with rounded corners and shadow
+- Blue submit button with hover effect
+- Green result text for visibility
+
+## File
+- style.css — contains all the visual design for the website
+
+## Notes
+This project uses plain CSS for simple and lightweight styling.
